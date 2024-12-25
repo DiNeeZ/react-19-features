@@ -19,7 +19,7 @@ export function Button({
   return (
     <button
       {...props}
-      className={`rounded px-4 py-2 font-bold text-white duration-150 ${buttonClassNames[variant]}`}
+      className={`rounded px-4 py-2 font-bold text-white duration-150 ${buttonClassNames[variant]} disabled:bg-gray-400`}
     >
       {children}
     </button>

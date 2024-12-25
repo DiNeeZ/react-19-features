@@ -1,13 +1,21 @@
 {
-  "tasks": [],
   "users": [
     {
-      "id": "a0881fd6-85dd-43c0-be4a-c502660b6884",
+      "id": "e90fe18f-c2f3-4da6-a75e-a3e982a23966",
       "email": "denis@gmail.com"
     },
     {
-      "id": "d096f3b8-076d-44e1-84a1-563212b108c9",
-      "email": "maiorov@gmail.com"
+      "id": "804486c4-e78f-4b3f-a7fe-5eeeaec59c9e",
+      "email": "sonya@gmail.com"
+    },
+    {
+      "id": "fdfe503e-7caa-4d13-b55d-ed1e6d45d2e2",
+      "email": "tanya@gmail.com"
+    },
+    {
+      "id": "04d01114-63ff-4e7c-bb4c-325673975755",
+      "email": "nicole@gmail.com"
     }
-  ]
+  ],
+  "tasks": []
 }

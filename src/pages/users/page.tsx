@@ -1,5 +1,5 @@
 import { UserForm, UsersList } from "@/components";
-import { Main, Container, PageTitle } from "@/components/ui";
+import { Main, Container, PageTitle, Preloader } from "@/components/ui";
 import { fetchUsers } from "@/utils/api";
 import { Suspense, useState } from "react";
 
@@ -21,7 +21,7 @@ export function UsersPage() {
       </section>
       <section>
         <Container>
-          <Suspense fallback={<h1>Loading...</h1>}>
+          <Suspense fallback={<Preloader />}>
             <UsersList usersPromise={usersPromise} />
           </Suspense>
         </Container>
